@@ -177,22 +177,3 @@ for am in dictionary:
         outfile.write(str(dictionary[am][c])+",")
     outfile.write(str(mic_dict[am])+"\n")
 outfile.close()
-
-# for i in range(mut_amount):
-#     l=[]
-#     m=[]
-#     for name in dictionary:
-#         combinations=[]
-#         for r in range(1,len(dictionary[name])+1):
-#             combo_object=itertools.combinations(dictionary[name],r)
-#             combo_list=list(combo_object)
-#             combinations+=combo_list
-#         for c in combinations:
-#             ord_value=0
-#             for acids in c:
-#                 ord_value+=ord(acids)
-#             l.append(ord_value)
-#             m.append(int(mic_dict[name]))
-#     z=numpy.corrcoef(numpy.array(l),numpy.array(m))
-#     correlation.append(abs(z[0,1]))
-# print(correlation.index(max(correlation)))
