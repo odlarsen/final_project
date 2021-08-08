@@ -123,10 +123,7 @@ for i in range(1,mut_amount+1):
     for a in dictionary:
         position=range(len(dictionary[a]))
         combo_object=itertools.combinations(position,i)
-        #my_combos[a]=(combo_object)
         my_combos[a]=list(combo_object)
-        #length = sum(1 for ignore in my_combos[a])
-    #for c in range(length):
     for c in range(len(my_combos[a])):
         #create empty lists
         l=[]
