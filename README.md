@@ -1,5 +1,7 @@
 # User Manual
-Download the python code and sequence alignments for the test data.
+This program is designed to take in 4 sequence alignments of genes within a bacteria type in fasta format and MIC antibiotic resistance values in a csv file.
+
+Download the python code and sequence alignments for the test data.  The names within the code should be altered to their location on your machine.
 
 The names of the files within the code may be changed according to where they are located on your machine.  In order to run this code for  staphylococcus aureus, switch out the names of staphylococcus haemolyticus files.  The outfile names are also changable to what ever is desired.
 
