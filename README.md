@@ -7,7 +7,7 @@ The paths within the code indicating file location should be altered to their lo
 In order to run this code for Staphylococcus aureus, switch out the names of Staphylococcus haemolyticus files.  The outfile names are also changable to what ever is desired.
 
 # Output
-Two output files will be written.  One will contain the number of unique alleles and the alleles and the other will contain a chi-square value for which mutation(s) have an effect on MIC value, the positions of mutations relative to each other, the genes where the mutation(s) are located, and the amino acid present at each mutation for every sequence.
+Two output files will be written.  One will contain the number of unique alleles and the alleles and the other will contain a chi-squared value for which mutation(s) have an effect on MIC value, the positions of mutations relative to each other, the genes where the mutation(s) are located, and the amino acid present at each mutation for every sequence.
 
 # Runtime Considerations
 Runtime is dependent on the amount of mutations and sequences within an alignment.
